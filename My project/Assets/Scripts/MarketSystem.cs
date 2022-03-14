@@ -12,7 +12,7 @@ public class MarketSystem : MonoBehaviour
     public int valueTime;
     public int v;
     public List<string> season;
-    public List<int> bugList; //0 = Carotte, 1 = tomate, 2 = orange
+    public List<int> bugList; //0 = Carotte, 1 = tomate, 2 = orange, 3 = Zucchini, 4 = Peach, 5 = strawberry, 6 = apple
     private void Awake()
     {
         season.Add("Winter");

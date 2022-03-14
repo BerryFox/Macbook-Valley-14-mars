@@ -1,9 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+
 public enum nameFruit
 {
-   orange, carrot, courgette, tomate 
+   orange, carrot, courgette, tomate, peach, radish, strawberry, apple , zucchini
 }
 [CreateAssetMenu(fileName = "New Fruit")]
 public class Fruits : ScriptableObject
@@ -16,12 +17,9 @@ public class Fruits : ScriptableObject
     public int Sell;
     public int GrowTimer;
 
-    bool isGrowing = true;
+   
     float waterReserve = 100;
-    public float TimeToGrowth = 30;
-    float Timer = 0;
-
-    bool CanHarvest = false;
+   
 
     // Start is called before the first frame update
     void Start()
